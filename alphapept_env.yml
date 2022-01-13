@@ -1,0 +1,12 @@
+name: alphapept_env
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - alphapept
+      #- pythonnet==2.5.2
+  - conda-forge::mono
+  - conda-forge::pythonnet
+  # - libgomp
